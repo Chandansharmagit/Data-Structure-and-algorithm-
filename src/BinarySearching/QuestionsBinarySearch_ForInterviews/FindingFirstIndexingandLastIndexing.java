@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FindingFirstIndexingandLastIndexing {
     public static void main(String[] args) {
-        int arr[] = {5, 7, 7, 8, 8, 10};
+        int arr[] = {5, 7, 7, 8, 8,8, 10};
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the target: ");
         int target = sc.nextInt();

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class QuestionsAskedBy_Google {
     public static void main(String[] args) {
-        int arr[] = {2, 4, 6, 9, 11, 12, 14, 20, 36, 48, 50};
+        int[] arr = {2, 4, 6, 9, 11, 12, 14, 20, 36, 48, 50};
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the target number: ");
         int target = sc.nextInt();
@@ -32,11 +32,11 @@ public class QuestionsAskedBy_Google {
     }
 
     static int findingCeilling(int[] arr, int target) {
-        int start = 0;
+        int starting = 0;
         int end = arr.length - 1;
 
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
+        while (starting <= end) {
+            int mid = starting + (end - starting) / 2;
 
 
             //printing the number less than target
@@ -44,13 +44,13 @@ public class QuestionsAskedBy_Google {
 
                 return mid;
             } else if (arr[mid] < target) {
-                start = mid + 1;
+                starting = mid + 1;
             } else {
                 end = mid - 1;
             }
 
         }
-        return start;
+        return starting;
     }
 
     //finding the floor
