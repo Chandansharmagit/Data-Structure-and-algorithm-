@@ -1,4 +1,4 @@
-package BinarySearching.QuestionsBinarySearch_ForInterviews;
+package BinarySearching.QuestionsBinarySearch_ForInterviews.GoogleInterViewsQuestions;
 
 import java.util.Scanner;
 
