@@ -34,6 +34,7 @@ public class MatrixTranspose {
         }
     }
 
+
     public static void main(String[] args) {
         // Example matrix
         int[][] matrix = {
@@ -47,6 +48,8 @@ public class MatrixTranspose {
         // Print the original matrix
         System.out.println("Original Matrix:");
         printMatrix(matrix);
+
+        
 
         // Print the transposed matrix
         System.out.println("Transposed Matrix:");
